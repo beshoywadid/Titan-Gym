@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <title>Titan Gym</title>
+    </head>
+    <body>
+        <nav id="navbar">
+            <div class="burger" onclick="toggleMenu()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+            </div>
+            <a href="index.html" id="logo"><span>Titan Gym</span></a>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <button id="toggleFormBtn">Subscribe</button>
+                </ul>
+                    
+        </nav>
+            <div class="container">
+                <div id="Home">
+                    <form id="loginForm">
+                        <img src="Banner.jpg">
+                        <input type="text" name="username" placeholder="Username" required>
+                        <input type="password" name="password" placeholder="Password" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                        <div class="typewriter-container">
+                            <p class="typewriter-line" style="animation-delay: 0s">Welcome to Titan</p>
+                            <p class="typewriter-line gym" style="animation-delay: 1s">Gym.</p>
+                        </div>
+                </div>
+            <div id="About">
+                <div class="cards-container">
+                    <div class="card">
+                        <div class="card-content">
+                            <img src="card1.jpg" class="card-image">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <img src="card2.jpg" class="card-image">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <img src="card3.jpg" class="card-image">
+                        </div>
+                    </div>
+                </div>
+                <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo ducimus alias inventore, quidem laboriosam iusto odit, quisquam expedita veniam maiores illum quas earum dolore, aliquam sint tempora perferendis velit.</p>
+            </div>
+            <div id="Services">
+                <button id="toggleBtn2">Explore</button>
+                <div id="exploreSection" style="display: none;">
+                    <div class="cards-container">
+                    <div class="card">
+                        <div class="card-content">
+                            <p id="sp">Push-up</p>
+                            <p>
+                                    Pull-up 12 × 4✅
+                                <br>
+                                    Chin-up 10 × 4✅
+                                <br>
+                                    Wide grip pull-up 10 × 4✅
+                                <br>
+                                    Close grip pull-up 12 × 3✅
+                                <br>
+                                    Lat pull-down 15 × 4✅
+                                <br>
+                                    Seated row 15 × 4✅
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <p id="sp">Pull-up</p>
+                            <p>
+                                    Push-up 15 × 4✅
+                                <br>
+                                    Incline bench press 12 × 4✅
+                                <br>
+                                    Flat bench press 10 × 4✅
+                                <br>
+                                    shoulder press 12 × 3✅
+                                <br>
+                                    Lateral raises 15 × 4✅
+                                <br>
+                                    Triceps pushdown 15 × 4✅
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <p id="sp">Push-Pull</p>
+                            <p>
+                                    Squat 12 × 4✅
+                                <br>
+                                    Leg press 15 × 4✅
+                                <br>
+                                    Walking lunges 12 × 3✅
+                                <br>
+                                    Romanian deadlift 12 × 4✅
+                                <br>
+                                    Leg extension 15 × 4✅
+                                <br>
+                                    Leg curl 15 × 4✅
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Contact">
+                <div class="icons-container">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email</span>
+                        <p>someone@gmail.com</p>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Phone</span>
+                        <p>+20 01XX XXX XXX</p>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Address</span>
+                        <p>1 flower-street-london</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
